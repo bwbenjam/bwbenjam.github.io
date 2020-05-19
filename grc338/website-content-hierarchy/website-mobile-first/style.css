@@ -1,0 +1,75 @@
+/*begin css*/
+
+body{
+    font-family: sans-serif, Helvetica, Arial;
+    background: rgb(102,153,153);
+    
+    color: #ffff;
+
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(102,153,153,1);
+    
+}
+highlight{
+    font-weight: bold;
+    font-size: 4em;
+}
+nav ul li{
+    list-style: none;
+    font-weight: bold;
+    display: inline;
+    margin: 1em;
+    text-align: center;
+}
+.logo, .form, header{
+    padding: 0em;
+    object-position: center;
+}
+.logo{
+    width: 30%;
+    margin-left: 1.5em;
+}
+nav{
+    background-color: #ffff;
+    border-radius: 10px;
+    padding: 1em;
+}
+.form{
+    width: 90%;
+    height: 7em;
+    object-fit: cover;
+    border-radius: 10px;
+    margin: 1em;
+    
+}
+h3, h1{
+    font-family: Georgia, serif;
+    font-size: 1.9em;
+    color: rgba(102,153,153,1);
+    text-align: center
+        
+}
+h3{
+    text-transform: uppercase;
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.menu ul{
+    padding-top: 1.2em;
+    border-style: solid;
+    border-radius: 7px;
+    border-width: .2em;
+    margin: 1.5em;
+}
+.menu li{
+    font-weight: 700;
+    list-style: none;
+    margin-left: 1em;
+}
+.menu p{
+    margin-right: 5em;
+}
+
